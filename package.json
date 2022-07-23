@@ -1,0 +1,13 @@
+{
+  "name": "openapi-codegen",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/flow-playground/openapi-codegen",
+  "author": "pensuke <pensuke81@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@reduxjs/toolkit": "^1.8.3",
+    "@rtk-query/codegen-openapi": "^1.0.0-alpha.1",
+    "ts-node": "^10.9.1"
+  }
+}
