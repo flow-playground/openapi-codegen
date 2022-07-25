@@ -5,9 +5,13 @@
   "repository": "https://github.com/flow-playground/openapi-codegen",
   "author": "pensuke <pensuke81@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "openapi-codegen": "openapi -i https://petstore3.swagger.io/api/v3/openapi.json -o openapi -c fetch --name OpenApiClient"
+  },
   "devDependencies": {
     "@reduxjs/toolkit": "^1.8.3",
     "@rtk-query/codegen-openapi": "^1.0.0-alpha.1",
+    "openapi-typescript-codegen": "^0.23.0",
     "ts-node": "^10.9.1"
   }
 }
